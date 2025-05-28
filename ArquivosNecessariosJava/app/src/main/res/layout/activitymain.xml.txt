@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_background_gray"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TRUCO!"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/texteq1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="DUPLA 1:"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/texteq2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="DUPLA 2:"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="28sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutpontos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/ptseq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/score_green"
+            android:textSize="88sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ptseq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/score_green"
+            android:textSize="88sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttontruco"
+            style="@style/TrucoButtonStyle"
+            android:text="TRUCO!" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/TrucoButtonStyle"
+            android:text="SEIS!!"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/TrucoButtonStyle"
+            android:text="NOVE!!!"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/TrucoButtonStyle"
+            android:text="DOZE!!!!"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/buttonResetRodada"
+            style="@style/TrucoButtonStyle"
+            android:paddingVertical="15dp" android:text="Resetar Rodada"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1pteq1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="+1"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/buttondiminuirpteq1"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:text="-1"
+                android:textSize="24sp"
+                android:backgroundTint="@color/button_minus_red"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/button1pteq2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="+1"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/buttondiminuirpteq2"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:text="-1"
+                android:textSize="24sp"
+                android:backgroundTint="@color/button_minus_red"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
