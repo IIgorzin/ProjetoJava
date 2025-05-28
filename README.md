@@ -1,5 +1,5 @@
 # Projeto Java.
-<h1>Projeto que estou fazendo no Android Studio em java</h1>
+<h1>Projeto que fiz no Android Studio em java</h1>
 
 <p><strong>
   Olá, meu nome é igor daniel, atualmente estou cursando Engenharia de Software & Análise e Desenvolvimente de Sistemas, estou estudando JAVA na faculdade de ADS e estou aplicando esse projeto para meu PIE(Projeto Integrador Extensionista) na faculdade de Engenharia de Software.
