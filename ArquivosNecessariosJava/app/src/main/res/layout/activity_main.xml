@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/main_background_gray"
+    android:background="@color/main_background_brown"
     android:fitsSystemWindows="true">
 
     <LinearLayout
@@ -36,7 +36,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="DUPLA 1:"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textAlignment="center"
             android:textSize="28sp" />
 
@@ -46,7 +46,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="DUPLA 2:"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textAlignment="center"
             android:textSize="28sp"/>
     </LinearLayout>
@@ -84,7 +84,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.5" android:orientation="vertical"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
         android:gravity="center">
 
         <Button
@@ -113,7 +114,8 @@
         <Button
             android:id="@+id/buttonResetRodada"
             style="@style/TrucoButtonStyle"
-            android:paddingVertical="15dp" android:text="Resetar Rodada"
+            android:paddingVertical="15dp"
+            android:text="Resetar Rodada"
             android:visibility="gone"/>
     </LinearLayout>
 
@@ -136,7 +138,9 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:text="+1"
-                android:textSize="24sp"/>
+                android:textSize="24sp"
+                android:backgroundTint="@color/button_plus_brown"
+                android:textColor="@color/white"/>
 
             <Button
                 android:id="@+id/buttondiminuirpteq1"
@@ -161,7 +165,9 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:text="+1"
-                android:textSize="24sp"/>
+                android:textSize="24sp"
+                android:backgroundTint="@color/button_plus_brown"
+                android:textColor="@color/white"/>
 
             <Button
                 android:id="@+id/buttondiminuirpteq2"
