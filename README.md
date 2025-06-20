@@ -2,7 +2,7 @@
 <h1>Projeto que fiz no Android Studio em java</h1>
 
 <p><strong>
-  🇧🇷 Olá, meu nome é Igor Daniel, atualmente estou cursando Engenharia de Software, esse é meu projeto para PIE(Projeto Integrador Extensionista).
+ [BR] Olá, meu nome é Igor Daniel, atualmente estou cursando Engenharia de Software, esse é meu projeto para PIE(Projeto Integrador Extensionista).
   🇺🇸 Hello, my name is Igor Daniel, I am currently studying Software Engineering, this is my project for PIE (Integrated Extension Project).
 </strong></p>
 <h2>
