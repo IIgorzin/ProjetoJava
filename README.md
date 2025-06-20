@@ -10,8 +10,8 @@
 </h2>
 
 <p><strong>
- [BR] Um simples projeto de Site e Aplicativo, o aplicativo é feito para contar os pontos em uma partida. Ambos possuem seus repositórios aqui no meu perfil.<br>
- [US] A simple website and application project, the application is made to count the points in a match. Both have their repositories here on my profile.
+ [BR] Um simples projeto de Site e Aplicativo, o site é explicando as regras e como funciona o truco paulista e o aplicativo é um contador de pontos da partida. Ambos possuem seus repositórios aqui no meu perfil.<br>
+ [US] A simple website and application project, the website explains the rules and how Truco Paulista works and the application is a game points counter. Both have their repositories here on my profile.
 </p></strong><br>
 
 <h1>CLIQUE AQUI</h1>
