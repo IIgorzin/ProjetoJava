@@ -1,5 +1,8 @@
-# Projeto Java.
-<h1>Projeto que fiz no Android Studio em java</h1>
+# Projeto Java. / Java Project.
+<h1> 
+ [BR] Projeto que fiz no Android Studio em java<br>
+ [US] Project I made in Android Studio in Java
+</h1>
 
 <p><strong>
  [BR] Olá, meu nome é Igor Daniel, atualmente estou cursando Engenharia de Software, esse é meu projeto para PIE(Projeto Integrador Extensionista).<br>
